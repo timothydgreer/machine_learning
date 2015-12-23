@@ -14,17 +14,8 @@ function g = sigmoidGradient(z)
 
 
 
-    gs = sigmoid(z)
-    g = exp(-z).*gs.^2
-
-
-
-
-
-
-
-
-
+    gs = sigmoid(z);
+    g = exp(-z).*gs.^2;
 
 % =============================================================
 
