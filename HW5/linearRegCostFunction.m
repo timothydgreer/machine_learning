@@ -24,21 +24,7 @@ temp = [];
 for j = 1:length(theta)
     temp = [temp; sum((X*theta-y).*X(:,j))];
 end
-temp;
 grad = (1/m)*temp+(lambda/m)*[0;theta(2:end)];
-
-
-
-
-
-
-
-
-
-
-
-% =========================================================================
-
 grad = grad(:);
 
 end
