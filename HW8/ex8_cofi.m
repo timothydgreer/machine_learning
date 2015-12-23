@@ -123,14 +123,16 @@ pause;
 %
 movieList = loadMovieList();
 
+%EDIT HERE IF YOU WANT TO RECEIVE YOUR
+%OWN MOVIE RECOMMENDATIONS!!
 %  Initialize my ratings
 my_ratings = zeros(1682, 1);
 
 % Check the file movie_idx.txt for id of each movie in our dataset
-% For example, Toy Story (1995) has ID 1, so to rate it "4", you can set
+% For example, Toy Story (1995) has ID 1, so to rate it "5", you can set
 my_ratings(1) = 5;
 
-% Or suppose did not enjoy Silence of the Lambs (1991), you can set
+% Or suppose Silence of the Lambs (1991) was only a 3 star movie for you, you can set
 my_ratings(98) = 3;
 
 % We have selected a few movies we liked / did not like and the ratings we
