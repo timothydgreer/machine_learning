@@ -128,7 +128,7 @@ movieList = loadMovieList();
 %  Initialize my ratings
 my_ratings = zeros(1682, 1);
 
-% Check the file movie_idx.txt for id of each movie in our dataset
+% Check the file movie_ids.txt for id of each movie in our dataset
 % For example, Toy Story (1995) has ID 1, so to rate it "5", you can set
 my_ratings(1) = 5;
 
